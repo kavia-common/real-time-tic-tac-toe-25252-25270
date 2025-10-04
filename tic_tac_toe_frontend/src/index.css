@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Base reset and theming hooks */
+html, body, #root { height: 100%; }
+:focus-visible { outline-offset: 2px; }
